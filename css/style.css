@@ -1,0 +1,77 @@
+body, html {height: 100%;   }
+
+html{overflow-x: hidden;}
+/******NAVBAR*******/
+
+#home{height: 100%; background-image: url("../midia/img/bg_home.jpg"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+
+.fontes-menu{font-size: 25px;}
+
+.fontes-menu a{color: #fff;}
+
+.hvr-underline-from-center:before{background: #FD9648;}
+
+#logo-central{padding-top: 10%; width: 40%; }
+
+.linha{border:0; width: 50%; color: #FD9648; background-color: #FD9648; height: 5px; }
+
+.linha-g{border:0; width: 50%; color: #717173; background-color: #717173; height: 5px;}
+
+h1{color: #fff; font-family: Maven Pro;}
+
+h2{color: #fff; font-family: Roboto;}
+
+#frase-home{color: #fff; font-family: Roboto;}
+
+#nosotros{height: 100%;}
+
+.bg-nosotros{background: url("../midia/img/soccer_bg.jpg") no-repeat center center fixed; height: 65%; width: 100%; background-size: cover; display: table;  }
+
+.text-nosotros p{font-size: 1.3em; color: #fff; }
+
+
+.navbar.navbar-no-bg {background-color: black; }
+
+.logo{width: 120px; height: 80px; -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s ease; }
+
+p{font-size: 20px;}
+
+#servicios{height: 100%; background-image: url("../midia/img/bg_servicios.jpg"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; display:table;width: 100%;}
+
+.texto-servicos{color: #fff;}
+
+.imagem-jogadores{height: 200px;}
+
+#atletas{height: 80%; background-image: url("../midia/img/bg_atletas.png"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+
+#parceria{background-color: #C2C2C2;}
+
+#button-enviar{background-color: #FD9648; color: #fff; }
+
+#footer{background-color:#6D0000; background-image: url("../midia/img/bg_atletas.png"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+
+#praxis{background-color: #292929; padding: 10px; color: white; margin: 0px; border-top: 1px solid white; border-top: solid 10px #FD9648;}
+
+#praxis a{color: white;}
+
+.text-footer{color: #fff;}
+
+
+.icon-background{color: orange;}
+
+.icon-color{color: white;}
+
+.icon-size{font-size: 4.5em;}
+
+.box{border: 1px solid orange;}
+.title{background-color: orange;font-size: 2em;}
+
+.texto-botao{color: #fff;font-size: 2em;}
+
+.btn-icon{
+	border-color: transparent;
+	background-color: transparent;
+}
+.btn-icon:focus{
+	outline: none;
+}
