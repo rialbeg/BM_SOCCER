@@ -21,22 +21,31 @@
 	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	
-	
-	<!-- Plugin-JS -->
-	
-	
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="css/loader.css">
 </head>
-<body>
+<!-- *******LOADER********* -->
+	<div class="load">
+		<div class="loader">
+			<div class="loader-white"></div>
+			<div class="loader-black"></div>
+		</div>
+	</div>
+<!-- *******LOADER********* -->
+<body id="site">
+	
 	<!-- NAVBAR -->
 	<header id="home">
-		<nav class="navbar fixed-top navbar-expand-lg ">
+		<nav class="navbar fixed-top navbar-expand-lg">
 			<div class="container">			  
 				<a class="navbar-brand" href="#index.html">
 					<img src="midia/img/bm_logo_semFundo1.png" class="logo1">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon fa pt-1" id="s-icon">&#xf039;</span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto f-2">
@@ -59,27 +68,41 @@
 				</div>
 			</div>  
 		</nav>
-		<div class="container" id="logo-central">
-			<img src="midia/img/bm_logo_semFundo2.png" class="img-fluid" >
-		</div>
-		<h1 class="animated zoomInUp text-center">BM Soccer</h1>
-		<hr class="linha">
-		<p class="animated zoomInUp text-center" id="frase-home">"Es,pues,la fe la certeza de lo que se espera la <br> convicción do no se ve." hebreos 11:1</p>
+		<div id="idiomas">
+			<a href="index.html" class="float hvr-bob">
+				<img src="midia/img/flag/spain-flag-button-round-icon-32.png">
+			</a>
+			<a href="indexusa.html" class="float float2 hvr-bob">
+				<img src="midia/img/flag/united-states-of-america-flag-button-round-icon-32.png">
+			</a>
+			<a href="indexbr.html" class="float float3 hvr-bob">
+				<img src="midia/img/flag/brazil-flag-button-round-icon-32.png">
+			</a>
+		</div>	
 	</header>
 
+	<!-- PAINEL -->
+	<div id="tela" class="bg-home "data-vide-bg="mp4:midia/vid/soccer_intro2.mp4, ogv:midia/vid/soccer_intro.ogv,webm:midia/vid/soccer_intro.webm">
+		<div class="landing-text fade-in one" id="pow">
+			<img src="midia/img/bm_logo_semFundo2.png" class="img-fluid" id="img-painel">
+			<h1 id="text-hum">BM Soccer</h1>
+			<hr class="linha">
+			<p id="text-p">"Es, pues, la Fe la certeza de lo que se espera, la convicción de lo que no se ve." Hebreos 11:1</p>
+		</div>		
+	</div>
+
 	<!-- NOSOTROS -->
-	<div id="nosotros" class="bg-nosotros pt-5 pb-5">
+	<div id="nosotros" class="bg-nosotros pb-5">
 		<div class="container text-nosotros">
 			<div class="row">
-				<div class="col-md-6">
-					<img src="midia/img/soccer_player.png" class="img-fluid">
+				<div class="col-md-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="3s">
+					<img src="midia/img/soccer_player.png" class="img-fluid " id="img-nosotros">
 				</div>
-				<div class="col-md-6 pt-5">
+				<div class="col-md-6 pt-5 wow fadeIn" data-wow-delay="2s" data-wow-duration="3s">
 					<h2 class="text-center">QUIENES SOMOS</h2>
 					<hr class="linha">
-					<p class="text-justify">Somos una empresa de promoción y representación de atletaas de alto rendimiento, especializada en jugadores de futbol soccer,
-					con énfasis en el desarollo y consolidación de jugadores y nuevas promesas, actuamos en Sudamerica, Centro América, México, USA
-					Asia y Europa.</p>
+					<p class="text-justify">Somos una empresa de promoción y representación de atletas de alto rendimiento, especializada en jugadores de futbol soccer,
+					con énfasis en el desarollo y consolidación de jugadores y nuevas promesas, actuamos en Sudamerica, Centro América, México, USA, Asia y Europa.</p>
 					<p class="text-justify">Impulsamos la carrera profesional de nuestros atletas, así como, vinculamos la imagen de nuestros jugadores con marcas patrocinadoras y contamos con una Red de Agentes en todos los continentes, brindando excelentes oportunidades para nuestros representados.</p>
 				</div>
 			</div>			
@@ -89,11 +112,11 @@
 	<!-- NUESTRA HITORIA -->
 	<div class="container historia text-center pt-5 mt-5 mb-5">
 		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8 wow fadeInDown" data-wow-delay=".5s">
 				<h3 id="h1-home">Nuestra Historia</h3>
 				<hr class="linha"></hr>
-				<p class="text-justify">BM Soccer Asesoria y Marketing Deportivo fue creada en el 2004,  por el Agente de Jugadores Brasileño  Júnior Tosta (Juninho) ,  con la idea de ser una alternativa profesional para la promoción de jugadores Profesionales y una oportunidad  para jóvenes promesas del futbol soccer, brindando apoyo administrativo, fiscal, juridico y sicologico a los atletas. La empresa  cuenta con un departamento de visorias que está a cargo de  Davi Cortes ( ex- jugador de Futbol  Profesional  del club Santos de Brasil , UDG , Verdy Kawasaky y Selección Brasileña  )  y Agentes colaboradores , entre ellos ,  Elder Granja (  ex - jugador de Futbol Profesional  que ha jugado en vários equipos del fútbol Brasileño  como Internacional en donde fue campeón mundial, Vasco da Gama, entre otros).</p>
+				<p class="text-justify">BM Soccer Asesoría y Marketing Deportivo fue creada en el 2004, por el Agente de Jugadores Brasileño Júnior Tosta (Juninho), con la idea de ser una alternativa profesional para la promoción de jugadores Profesionales y una oportunidad para jóvenes promesas del fútbol Soccer, brindando apoyo en lo deportivo, administrativo, fiscal, jurídico y sicológico a los atletas. La empresa cuenta con un departamento de visorias que está a cargo de Davi Cortes (ex-jugador de Futbol Profesional del club Santos de Brasil, UDG- Méx, Verdy Kawasaky y Selección Brasileña) y Everaldo Barbosa  (ex-jugador de Fútbol Profesional del Club Jaguares de Chiapas-Méx, Necaxa-Méx, Guarani, Atlético Paranaense, Marilia, Santa Cruz, Ituano, Mogi Mirim) además de Agentes Asociados, entre ellos, Elder Granja (ex-jugador de Futbol Profesional del Club Internacional en donde fue campeón mundial, Vasco da Gama, Palmeiras, Atlético Mineiro, Sport, Portuguesa, Corinthias-AL).</p>
 			</div>
 			<div class="col-md-2"></div>
 		</div>
@@ -102,27 +125,27 @@
 	<!-- VALORES - MISSÃO - VISÃO -->
 	<div class="container text-center pt-4 mb-5">
 		<div class="row">
-			<div class="col-md-4 wow fadeIn " data-wow-delay=".5s">
+			<div class="col-lg-4 wow fadeInLeft" data-wow-delay=".5s">
 				<h3>Nuestros Valores</h3>
 				<hr class="linha-g"></hr>
-				<p>En BM Soccer  tenemos como filosofía de trabajo, el cimentar nuestra labor diária en los siguientes valores:</p>
+				<p>En BM Soccer  tenemos como filosofía de trabajo, cimentar nuestra labor diária en los siguientes valores:</p>
 				<div class="row">
-					<div class="col-6">
+					<div class="col-lg-6">
 						<p>HONESTIDAD</p>
 						<p>PROFESIONALISMO</p>
 					</div>
-					<div class="col-6">
+					<div class="col-lg-6">
 						<p>COMPROMISO</p>
 						<p>SOLIDARIDAD</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
 				<h3>Misión</h3>
 				<hr class="linha"></hr>
-				<p>Lograr que a través de nuestro servicio y asesoría, que nuestros representados exploten al máximo sus capacidades, alcancen la excelencia en su carrera profesional.</p>
+				<p>Lograr que a través de nuestro servicio y asesoría, nuestros representados exploten al máximo sus capacidades, alcancen la excelencia en su carrera profesional.</p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4 wow fadeInRight" data-wow-delay=".5s">
 				<h3>Visión</h3>
 				<hr class="linha-g"></hr>
 				<p>Transformar los sus sueños de nuestros representados en objetivos realizados.</p>
@@ -131,51 +154,52 @@
 	</div>
 
 	<!-- SERVICIOS -->
-	<div id="servicios">
+	<div id="servicios" class="mt-3 pb-5">
 		<div class="container">
 			<div class="row ">
-				<div class="col-md-4 mt-5 pt-5">
+				<div class="col-lg-4 mt-5 pt-5 wow fadeInLeft" data-wow-delay=".5s">
 					<h2 class="text-center">SERVICIOS</h2>
 					<hr class="linha">
 					<p class="text-justify texto-servicos">Dentro de nuestro equipo de trabajo contamos con especialistas jurídicos con el fin de asesorar y proteger los intereses de nuestros representados y resolver cualquier asunto o contingencia legal, otorgando asesoría especializada  en la toma de decisiones.
+						<br>
 					<br>Derecho Deportivo
 					<br>Derecho Laboral
 					<br>Derecho Civil
+					<br>Derecho Fiscal
 					<br>Derecho Migratório</p>
 				</div>
-				<div class="col-md-8 mt-5">
-					<div class="row">
-								
-								<div class="col-sm-4 col-md-4">
-									<button id="button1" type="button" class="btn-icon">
-										<span class="fa-stack icon-size">	
-										  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-										  <i class="fa fa-address-card fa-stack-1x icon-color"></i>
-										</span>
-									</button>	
-								</div>
-								<div class="col-sm-4 col-md-4">
-								 	<button id="button2" type="button" class="btn-icon"> 
-									   <span class="fa-stack icon-size">
-										  <i class="fa fa-circle fa-stack-2x icon-background"></i><
-										  <i class="fa fa-cog fa-stack-1x icon-color"></i>
-										</span>
-									</button>	
-								</div>   
-								<div class="col-sm-4 col-md-4"> 
-								  	<button id="button3" type="button" class="btn-icon">
-									  	<span class="fa-stack icon-size ">
-										  <i class="fa fa-circle fa-stack-2x icon-background"></i>
-										  <i class="fa fa-lock fa-stack-1x icon-color"></i>
-										</span>
-									</button>	
-								</div>   
+				<div class="col-lg-8 mt-5 mb-4 wow fadeInRight text-center" data-wow-delay=".5s">
+					<div class="row">			
+						<div class="col-sm-4 col-md-4">
+							<button id="button1" type="button" class="btn-icon">
+								<span class="fa-stack icon-size hvr-icon-fade hvr-icon-grow">	
+									<i class="fa fa-circle fa-stack-2x icon-background hvr-icon"></i>
+									<i class="fa fa-briefcase fa-stack-1x icon-color"></i>
+								</span>
+							</button>	
 						</div>
+						<div class="col-sm-4 col-md-4">
+							<button id="button2" type="button" class="btn-icon"> 
+								<span class="fa-stack icon-size hvr-icon-fade hvr-icon-grow">
+									<i class="fa fa-circle fa-stack-2x icon-background hvr-icon"></i><
+									<i class="fa fa-database fa-stack-1x icon-color"></i>
+								</span>
+							</button>	
+						</div>   
+						<div class="col-sm-4 col-md-4"> 
+							<button id="button3" type="button" class="btn-icon">
+								<span class="fa-stack icon-size hvr-icon-fade hvr-icon-grow">
+									<i class="fa fa-circle fa-stack-2x icon-background hvr-icon"></i>
+								  	<i class="fa fa-calculator fa-stack-1x icon-color"></i>
+								</span>
+							</button>	
+						</div>   
+					</div>
 					<div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-8">
-							<div class="box title text-center mt-5 ">MANAGEMENT</div>	
-							<div class="firstDiv texto-botao text-center box">Hola señores</div>
+							<div class="box title text-center mt-5 ">Otro</div>	
+							<div class="firstDiv texto-botao text-center box"> Management: Nuestro compromiso es buscar la creación de un esquema de servicio a la medida de cada atleta. Lo anterior redunda en el éxito de la negociación de contratos, en los aspectos deportivo, laboral y económico.</div>
 						</div>
 						<div class="col-md-2"></div>
 					</div>	
@@ -188,62 +212,163 @@
 	<div id="atletas">
 		<h2 class="text-center pt-5 mb-3">Nuestros Atletas</h2>
 		<!-- Set up your HTML -->
-		<div class="container pt-5"> 
-			<div class="owl-carousel">
-			  <div></div>
-			  <div></div>
-			  <div> Your Content </div>
-			  <div> Your Content </div>
-			  <div> Your Content </div>
-			  <div> Your Content </div>
-			  <div> Your Content </div>
+		<div class="container pt-5 text-center mt-5 pb-5"> 
+			<div class="owl-carousel owl-theme">
+				<div>
+					<a href="http://ligamx.net/cancha/jugador/98881/eyJpZENsdWIiOiAxMDk4N30=/alfredo-andrade-rivera" target="_blank">
+						<img src="midia/img/atletas/alfredo_andrade.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Alfredo Andrade</p>
+				</div>
+				<div>
+					<a href="" target="_blank">
+						<img src="midia/img/atletas/anderson_da_silva.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Anderson da Silva</p>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=eEqAP_Jy59g&feature=youtu.be" target="_blank">
+						<img src="midia/img/atletas/augusto_cesar.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Augusto César</p>
+					<a href="https://www.agnr2m.com" target="_blank" class="f-white hvr-underline-from-center">AGM R2M</a>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=k_m9YyFuFMo" target="_blank">
+						<img src="midia/img/atletas/bruno_pires.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Bruno Pires</p>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=Kv0rO3oH4DA" target="_blank">
+						<img src="midia/img/atletas/edinho_granja.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Edinho Granja</p>
+				</div>
+				<div>
+					<a href="http://ligamx.net/cancha/jugador/112141/eyJpZENsdWIiOiAxMDk4N30=/eduardo-andrade-rivera" target="_blank">
+						<img src="midia/img/atletas/eduardo_andrade.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Eduardo Andrade</p>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=mltvEE1nEVo&feature=youtu.be" target="_blank">
+						<img src="midia/img/atletas/elsinho.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Elsinho</p>
+					<a href="https://www.facebook.com/MegaTeam-Consultoria-Esportiva-184934391603753/" target="_blank" class="f-white hvr-underline-from-center">Mega Team</a>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=qOIYxwUR63E&feature=youtu.be" target="_blank">
+						<img src="midia/img/atletas/gustavo_neves.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Gustavo Neves</p>
+				</div>
+				<div>
+					<a href="http://ligamx.net/cancha/jugador/116814/eyJpZENsdWIiOiAxMDk4N30=/julio-tereso-padilla-estrada" target="_blank">
+						<img src="midia/img/atletas/julio_tereso.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Julio Tereso</p>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=d3_tc864_7s&t=186s" target="_blank">
+						<img src="midia/img/atletas/leandro_carrijo.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Leandro Carrijo</p>
+					<a href="https://www.facebook.com/MegaTeam-Consultoria-Esportiva-184934391603753/" target="_blank" class="f-white hvr-underline-from-center">Mega Team</a>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=mfxlBIpUfPU&feature=youtu.be" target="_blank">
+						<img src="midia/img/atletas/luis_omar.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Luis Omar Hernández</p>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=KETrad7nNp8&feature=youtu.be" target="_blank">
+						<img src="midia/img/atletas/vinicius_marcos.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Marcos Vinicius</p>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=tngdOYPNnuU&feature=youtu.be" target="_blank">
+						<img src="midia/img/atletas/matheuzinho.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Matheuzinho</p>
+					<a href="https://www.transfermarkt.com/aki-amp-desiderio-sports/beraterfirma/berater/5082" target="_blank" class="f-white hvr-underline-from-center">Aki&Desiderio</a>
+				</div>
+				<div>
+					<a href="http://www.ligabancomer.mx/cancha/jugador/77481" target="_blank">
+						<img src="midia/img/atletas/raul_vidal.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Raul Vidal</p>
+				</div>
+				<div>
+					<a href="http://ligamx.net/cancha/jugador/122788/eyJpZENsdWIiOiAxMDUxOX0=/salvador-gonzalez-gonzalez" target="_blank">
+						<img src="midia/img/atletas/salvador_gonzalez.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Salvador Gonzalez</p>
+				</div>
+				<div>
+					<a href="" target="_blank">
+						<img src="midia/img/atletas/yohan_ferreria.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Yohan Ferreira</p>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/watch?v=PD81JgT9Da4" target="_blank">
+						<img src="midia/img/atletas/yuber_asprillas.jpg" class="img-fluid img-carousel">
+					</a>
+					<p class="f-white">Yuber Asprilla</p>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- PARCERIA -->
-	<div id="parceria" class="pt-5 pb-5">
-		<h2 class="text-center">Asociación</h2>
-		<div class="container" id="logo-central">
-			<img src="midia/img/smile.png" class="img-fluid">
+	<div id="parceria" class="pb-5">
+		<div class="container p-2 wow fadeIn" data-wow-duration="2s">
+			<a href="https://www.sousmile.com.br" target="_blank"><img src="midia/img/smile.png" class="img-fluid" width="600"></a>
 		</div>
-		<div class="container"><p class="text-justify">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica</p></div>
+		<div class="container wow fadeIn" data-wow-duration="2s"><p class="text-justify">BM SOCCER  Y  SMILE ENTRETENIMENTO en sociedad realiza proyectos orientados para el sector deportivo, corporativo, social y cultural en todo territorio nacional e internacional. Para garantizar el éxito del evento a nuestros clientes, contamos con una extensa relación de proveedores y un equipo con experiencia en Comunicación e Inteligencia en negocios, Capacitación de recursos, Planificación, Organización, Producción, Logística, Buffet, Decoración, Ambientación, Escenografía, Montaje y Desmontaje, Dirección de escenario, Producción técnica, Iluminación, Transmisiones simultaneas,  Emisión y Fotografía.
+			Nuestra prioridad es su satisfacción.</p>
+		</div>
 	</div>
 
 	<!-- FOOTER -->
-	<div id="footer" class="pt-5 pb-5">
+	<div id="footer" class=" pt-3">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 text-center mt-5 ">
-					<h3 class="text-footer">Asociación</h3>
+				<div class="col-md-6 text-center mt-5 wow fadeInLeft" data-wow-duration="2s">
+					<h3 class="text-footer">Smile</h3>
 					<hr class="linha">
 					<p class="text-footer">Jeane Tosta</p>
 					<p class="text-footer">+55 71 98256-4590</p>
-					<p class="text-footer">jeanetosta@sousmile.com.br</p>
+					<p class="text-footer">contato@sousmile.com.br</p>
 
 					<h3 class="text-footer">Contacto</h3>
 					<hr class="linha">
 					<p class="text-footer">Junior Tosta</p>
-					<p class="text-footer">+55 1 449-464427</p>
+					<p class="text-footer">+52 1 449 4644274</p>
 					<p class="text-footer">juniortosta@bmsoccer.com.mx</p>
 				</div>
-				<div class="col-md-6 mt-5">
-					<form method="post" action="email_form/index.php">
+				<div class="col-md-6 mt-5 mb-3 wow fadeInRight" data-wow-duration="2s">
+					<form method="post" action="contato/contato.php">
 					  <div class="form-group">
 					    <input type="text" class="form-control mb-3" name="name"id="name" placeholder="Nombre">
-					    <input type="email" class="form-control mb-3" name="email" id="email" placeholder="name@example.com">
+					    <input type="email" class="form-control mb-3" name="email" id="email" placeholder="E-mail">
 					    <input type="text" class="form-control mb-3" name="subject"  id="subject" placeholder="Asunto">
-					    <textarea class="form-control mb-3" name="message" id="message" rows="6"></textarea>
+					    <textarea class="form-control mb-3" name="message" id="message" rows="6" placeholder="Describa aquí..."></textarea>
 					  </div>
-					  <input type="submit" class="btn btn-lg" id="button-enviar" value="Enviar">
+					  <input type="submit" class="btn btn-lg hover-but" id="button-enviar" name="button-enviar" value="Enviar">
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<p id="praxis" class="text-center ">Desenvolvido por <a href="http://www.praxisjr.com/" target="_blank">Praxis - Empresa Junior.</a> ® 2017. Todos os direitos reservados.</p>
+	<p id="praxis" class="text-center ">Desarrollado por <a href="http://www.praxisjr.com/" target="_blank">Praxis - Empresa Junior.</a> ® 2018. Todos los derechos reservados.</p>
 	
+	<!-- Plugin-JS -->
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -251,29 +376,38 @@
 	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/zepto.js"></script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+		$(".load").fadeOut("slow");	
+	});
+	</script>
+
 	<script>
-              new WOW().init();
+        new WOW().init();
     </script>
+
+    <script type="text/javascript" src="js/jquery.vide.js"></script>
 	
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$("#button1").click(function(){
-				$(".firstDiv").text("Hola señores");
+				$(".firstDiv").text("Management: Nuestro compromiso es buscar la creación de un esquema de servicio a la medida de cada atleta. Lo anterior redunda en el éxito de la negociación de contratos, en los aspectos deportivo, laboral y económico.");
 			})
 
 			$("#button2").click(function(){
-				$(".firstDiv").text("Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica");
+				$(".firstDiv").text("Finanzas: Contamos con una red de asesores financieros para ofrecer a nuestros representados portafolios de inversión durante su carrera deportiva, buscando seguridad y rendimiento (Inversiones en valores, bienes raíces, negocios, seguros, etc.) y planes de retiro (fideicomisos).");
 			})
 			$("#button3").click(function(){
-				$(".firstDiv").text("Hola todos");
+				$(".firstDiv").text("Contable: Contamos con una alianza estratégica en los países en los que trabajamos, con grupos especializados de contadores que conocen y asesoran a nuestros representados para que su situación fiscal siempre sea idónea.");
 			})
 		});
-
 
 		$(document).ready(function(){
 		  $(".owl-carousel").owlCarousel();
 		});
-
 
 		$(window).scroll(function(){
 			var wscroll = $(this).scrollTop();
@@ -285,7 +419,30 @@
 			    $(".logo1").removeClass("logo");
 			}
 		});;
-	</script>
 
+		$(document).ready(function(){
+		  $(".owl-carousel").owlCarousel();
+		});
+
+		$('.owl-carousel').owlCarousel({
+		    loop:true,
+		    margin:10,
+		    nav:true,
+		    autoplay:true,
+    		autoplayTimeout:2300,
+    		autoplayHoverPause:true,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:3
+		        },
+		        1000:{
+		            items:5
+		        }
+		    }
+		});
+	</script>
 </body>
 </html>

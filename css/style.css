@@ -1,9 +1,6 @@
-body, html {height: 100%;   }
+body, html {height: 100%;}
 
 html{overflow-x: hidden;}
-/******NAVBAR*******/
-
-#home{height: 100%; background-image: url("../midia/img/bg_home.jpg"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
 
 .fontes-menu{font-size: 25px;}
 
@@ -25,24 +22,21 @@ h2{color: #fff; font-family: Roboto;}
 
 #nosotros{height: 100%;}
 
-.bg-nosotros{background: url("../midia/img/soccer_bg.jpg") no-repeat center center fixed; height: 65%; width: 100%; background-size: cover; display: table;  }
+.bg-nosotros{background: url("../midia/img/bg_hex.png") no-repeat center center fixed; height: 65%; width: 100%; background-size: cover; display: table;}
 
 .text-nosotros p{font-size: 1.3em; color: #fff; }
 
-
-.navbar.navbar-no-bg {background-color: black; }
-
 .logo{width: 120px; height: 80px; -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s ease; }
 
-p{font-size: 20px;}
+p{font-size: 18px;}
 
-#servicios{height: 100%; background-image: url("../midia/img/bg_servicios.jpg"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; display:table;width: 100%;}
+#servicios{background-image: url("../midia/img/bg_servicios.jpg"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; display:table;width: 100%;}
 
 .texto-servicos{color: #fff;}
 
 .imagem-jogadores{height: 200px;}
 
-#atletas{height: 80%; background-image: url("../midia/img/bg_atletas.png"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+#atletas{background-image: url("../midia/img/bg_atletas.png"); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
 
 #parceria{background-color: #C2C2C2;}
 
@@ -56,7 +50,6 @@ p{font-size: 20px;}
 
 .text-footer{color: #fff;}
 
-
 .icon-background{color: orange;}
 
 .icon-color{color: white;}
@@ -64,14 +57,86 @@ p{font-size: 20px;}
 .icon-size{font-size: 4.5em;}
 
 .box{border: 1px solid orange;}
+
 .title{background-color: orange;font-size: 2em;}
 
-.texto-botao{color: #fff;font-size: 2em;}
+.texto-botao{color: #fff; font-size:1.2em !important ;}
 
-.btn-icon{
-	border-color: transparent;
-	background-color: transparent;
-}
-.btn-icon:focus{
-	outline: none;
-}
+.btn-icon{border-color: transparent; background-color: transparent; }
+
+.btn-icon:focus{outline: none; }
+
+#tittle-assoc{font-size: 70px;}
+
+.firstDiv{font-size: 15px; padding: 5px;}
+
+.navbar-toggler{background-color: #FD9648;}
+
+#s-icon{color: white;}
+
+.navbar {background: none; -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s; backface-visibility: hidden; min-height: 60px; }
+
+.navbar.navbar-no-bg {background: black; } 
+
+.navbar-dark .navbar-nav {font-size: 20px; color: #fff; text-transform: uppercase; }
+
+.navbar-dark .navbar-nav .nav-link {color: #fff; color: rgba(255, 255, 255, 0.8); border: 0; }
+
+.navbar-dark .navbar-nav .nav-link:hover {color: #fff; }
+
+.navbar-dark .navbar-nav .nav-link:focus {color: #fff; outline: 0; }
+
+.navbar-expand-md .navbar-nav .nav-link {padding-left: 1rem; padding-right: 1rem; }
+
+.navbar-brand {padding: 0 12px; height: 60px; line-height: 60px; }
+
+.navbar-toggle {margin-top: 13px; padding: 9px 10px !important; }
+
+.logo{width: 120px; height: 80px; -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s ease; }
+
+.bg-home {height: 100%; width: 100%; background-size: cover; display: table; position: relative; }
+
+.landing-text{display: table-cell; text-align: center; vertical-align: middle; }
+
+.landing-text h1{color: white; font-size: 7em; font-weight: 500; }
+
+.landing-text p{color: white; font-size: 2.5em; }
+
+#text-p{font-size: 18px !important;}
+
+/*#text-p{position: absolute; bottom:70px; right:30%; left:60%; margin-left:-150px; font-size: 18px !important; }*/
+
+.linha{border:0; width: 50%; color: orange; background-color: orange; height: 5px; }
+
+.fade-in {opacity:0; -webkit-animation:fadeIn ease-in 1; -moz-animation:fadeIn ease-in 1; animation:fadeIn ease-in 1; -webkit-animation-fill-mode:forwards; -moz-animation-fill-mode:forwards; animation-fill-mode:forwards; -webkit-animation-duration:1s; -moz-animation-duration:1s; animation-duration:1s; }
+
+.fade-in.one {-webkit-animation-delay: 9s; -moz-animation-delay: 9s; animation-delay: 9s; }
+
+/*.bg-nosotros {background: url("../midia/img/soccer_bg.jpg") no-repeat center center fixed; height: 65%; width: 100%; background-size: cover; display: table; position: relative; }*/
+
+.img-carousel{width: 220px; border-radius: 50%; height: 220px;}
+
+.img-carousel:hover{transition: .5s; -webkit-transform: scale(0.9); -moz-transform: scale(0.9); -o-transform: scale(0.1);}
+
+#sp{background-image: url("../midia/img/flag/spain.png"); width: 98px; height: 38px;} 
+
+#br{background-image: url("../midia/img/flag/brazil.png"); width: 98px; height: 38px;}
+
+#us{background-image: url("../midia/img/flag/usa.png"); width: 98px; height: 38px;}
+
+.float{position:absolute;/*width:60px;height:60px;*/bottom:40px;left:40px;/*background-color:#0C9;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;*/z-index: 999;}   
+
+.float3{left: 80px;	}
+
+.float2{left: 120px;}
+
+.f-white{color: white;}
+
+.f-white:hover{ text-decoration: none; color: white; }
+
+input #hover-but:hover{color: #000;}
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

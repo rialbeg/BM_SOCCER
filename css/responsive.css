@@ -1,0 +1,98 @@
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 320px) {
+  #foto-prin{width: 100%;}
+  #pow{padding-top: 50%;}
+  .fontes-menu{font-size: 15px;}
+  #text-hum{font-size: 20px;}
+  #text-p{font-size: 10px;}
+  #img-painel{width: 300px;}
+  nav{background-color: #000;}
+  .logo1{height: 50px;}
+}
+
+@media screen and (min-width: 360px) {
+  #pow{padding-top: 30%;}
+  nav{background-color: #000;}
+}
+
+@media screen and (min-width: 410px) {
+  nav{background-color: #000;}
+}
+
+@media screen and (min-width: 568px) {
+  #pow{padding-top: 17%;}
+  nav{background-color: #000;}
+  h1{font-size: 25px;}
+  .logo1{height: 70px;}
+}
+
+@media screen and (min-width: 640px) {
+  #pow{padding-top: 10%;}
+  nav{background-color: #000;}
+
+}
+
+@media screen and (min-width: 736px) {
+ nav{background-color: #000;}
+}
+
+/* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 768px) {
+  #pow{padding-top: 10%;}
+  #img-nosotros{padding-top: 50%;}
+  #nosotros{height: 50%;}
+  #servicios{height: 40%;}
+  #text-hum{font-size: 50px;}
+  nav{background-color: #000;}
+
+  #text-p{font-size: 15px !important; position: absolute; margin-left:-150px; bottom:5px; right:30%; left:45%; } 
+  /*.owl-carousel .owl-item img {
+      display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 33.3vw;
+    }*/
+}
+
+@media screen and (min-width: 812px) {
+  #pow{padding-top: 12%;}
+  nav{background-color: #000;}
+}
+
+@media screen and (min-width: 823px) {
+  #img-nosostros{padding-top: 20%;}
+  nav{background-color: #000;}
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+  #img-nosotros{padding-top: 10%;}
+  nav{background-color: #000;}
+
+  
+}
+@media screen and (max-width: 992px){
+  .navbar{background: black;}
+}
+@media screen and (min-width: 1024px) {
+  #pow{padding-top: 5%;}
+}
+
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1280px) {
+  #img-nosostros{padding-top: 10%;}
+  #servicios{height: 70%;}
+}
+
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+  #img-nosostros{padding-top: 40%;}
+  #pow{padding-top: 10%;}
+  #nosotros{height: 40%;}
+  #servicios{height: 40%;}
+  #atletas{height: 30%;}
+}
+
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+   #pow{padding-top: 10%;}
+}
+
